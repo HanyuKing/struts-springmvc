@@ -15,5 +15,18 @@
         <module>why-web</module>
     </modules>
 
+    <properties>
+        <spring.version>4.3.2.RELEASE</spring.version>
+        <struts.version>2.3.16</struts.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.struts</groupId>
+            <artifactId>struts2-core</artifactId>
+            <version>${struts.version}</version>
+        </dependency>
+    </dependencies>
+
 
 </project>
